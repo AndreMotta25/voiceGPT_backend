@@ -12,7 +12,8 @@ api.use(express.json());
 api.use(cors());
 
 const uploader = multer();
-
+const API_KEY = '';
+ 
 api.post("/chat/", async (request:Request, response:Response) => {
   const {messages} = request.body
   
@@ -25,7 +26,7 @@ api.post("/chat/", async (request:Request, response:Response) => {
           },
           {
               headers:{
-                  Authorization:`Bearer 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`,
+                  Authorization:`Bearer ${API_KEY}`,
               },
               responseType:"stream"
       })
