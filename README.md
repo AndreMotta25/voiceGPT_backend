@@ -5,6 +5,9 @@ Acredito que essa ideia tem muito potencial, especialmente porque permite que pe
 
 Sinta-se a vontade para mexer no codigo. Se o fizer, de uma ```estrelinha```
 
+## Observação
+Esse foi um projeto simples, então não vi a necessidade de aplicar alguns padrões e estilos que normalmente se tem em uma aplicação NodeJs  
+
 ## Bibliotecas usadas
 * Axios
 * Cors
